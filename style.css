@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+.kepala {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
 .nav1 {
   display: flex;
   align-items: center;
@@ -144,4 +151,83 @@
 
 .play:hover {
   background-color: bisque;
+}
+
+/* ---------- Medsos --------- */
+
+.medsos {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.bungkusmedsos {
+  background-color: rgba(178, 234, 215, 0.63);
+}
+.ig {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+}
+
+.fb {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+}
+
+.emyt {
+  display: flex;
+
+  justify-content: space-evenly;
+
+  padding: 80px 100px;
+  font-size: 50px;
+  gap: 80px;
+}
+
+.youtube {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+}
+
+.igtw {
+  display: flex;
+
+  justify-content: space-evenly;
+
+  padding: 80px 100px;
+  font-size: 50px;
+  gap: 40px;
+}
+
+.ig a {
+  color: black;
+}
+/* -----------end--------------- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
 }
